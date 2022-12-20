@@ -21,11 +21,13 @@ public class Car extends Vehicle {
         this.currentGear = 1;
     }
 
-    public Car(String name, boolean isManual)
+   /* public Car(String name, boolean isManual)
     {
         super(name);
         this.isManual = isManual;
     }
+
+    */
 
     public int getWheels() {
         return wheels;
